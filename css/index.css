@@ -1,0 +1,37 @@
+.bg-nod{
+background-color: #24353f;
+
+}
+.bg-blue{
+    color: #17a2b8;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.login ,.sign,.welcome ,.navbar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-control:focus{
+     background-color:  #24353f;
+     -webkit-box-shadow:none;
+   
+     /* box-shadow: none; */
+ }
+.form-control{
+    color: white !important;
+ }
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+   
+a{
+    
+    text-decoration: none;
+}
+a:hover{
+    
+    color: #24353f !important;
+}

@@ -1,0 +1,42 @@
+<html>
+    <title> Register</title>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    
+    
+
+    <body class="bg-nod">
+
+      <div class="container bg-nod mt-3">
+        
+
+          <div class=" sign col-md-12 w-75  m-auto p-5 bg-nod  mt-5">
+            <h1 class="text-center bg-blue">Smart Login System</h1>
+
+            <input id="signinName" class="form-control my-3 bg-transparent text-light " placeholder="Enter your Name" type="text">
+
+            <input id="signinEmail" class="form-control my-3 bg-transparent text-light " placeholder="Enter your Email" type="email">
+            <input id="signinPassword" class="form-control my-3 bg-transparent text-light" placeholder="Enter your Password" type="password">
+
+            <p id="error"  class="text-danger text-center d-none"></p>
+            
+            <p id="exist"  class="text-danger text-center d-none"></p>
+            <p id="succss"  class="text-success text-center d-none"></p>
+
+            <button id="" onclick="sign()" class="btn btn-outline-info w-100 my-3 btn-register ">Sign Up</button>
+            <p class="text-white text-center">You have an account? <a class="text-white " href="index.html">Signin</a></p>
+
+       
+        </div>
+     </div>
+     
+       
+        <script src="js/mine.js"></script>
+    </body>
+</html>
